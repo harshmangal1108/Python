@@ -1,0 +1,10 @@
+
+
+## ERROR:Authentication plugin 'caching_sha2_password' is not supported
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'password' PASSWORD EXPIRE NEVER;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '{NewPassword}';
+
+
+
+##NOTE: MYSQL has a special datatype to store binary data called BLOB(binary large object)
+--TINYBLOB ,BLOB,MEDIUMBLOB AND LONGBLOB are variants of binary object
