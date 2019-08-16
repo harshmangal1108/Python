@@ -6,6 +6,10 @@ jupyter notebook
 
 # Run
 ## python3
+```bash
 python3 filename.py
+```
 ## python2
+```bash
 python filename.py
+```
