@@ -4,12 +4,13 @@ Python is a popular programming language. It was created by Guido van Rossum, an
 ```bash
 sudo apt install python3 
 ```
-[python3] (https://www.python.org/downloads/)
+[python3](https://www.python.org/downloads/)
 # IDE
 jupyter notebook
 ## Instalation
 ### pip
-```sudo apt install python3-pip
+```bash
+sudo apt install python3-pip
 ```
 ### jupyter
 ```bash
