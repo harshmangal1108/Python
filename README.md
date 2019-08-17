@@ -8,6 +8,7 @@ sudo apt install python3
 # IDE
 jupyter notebook
 ## Instalation
+#### Ubuntu Linux
 ### pip
 ```bash
 sudo apt install python3-pip
