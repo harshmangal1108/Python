@@ -18,7 +18,7 @@ if "HII" in x[4:]:
     print("yes")
 else:
     print("no")
-print("Enter value to search")
+#print("Enter value to search")
 #y=int(input())
 """if y in x:
     print("yes %d is present"%y)
@@ -34,17 +34,16 @@ print(x)
 x.pop(4) ### 4 is index
 del x[1]
 print(x)
-z=list(x)
 ### copying a list
-y=list(x)
+z=list(x
+y=[10,20]
 print(y)
-### 2nd method
-y=x.copy()
+### 2nd method y=x.copy()
 ###join 2 list
-
+k=x+y
 #### 2nd method
 for n in y:
     x.append(y)
-print(x)
+print(k)
 #### sorting in list
-print(z.sort())
+print(k.sort())
