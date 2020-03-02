@@ -1,3 +1,4 @@
+### 2(ii)
 ##3 tuple :ordered or unchangable
 x=(1,2,3,4,"apple","banana")
 print(x)
