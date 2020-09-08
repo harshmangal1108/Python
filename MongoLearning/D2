@@ -1,0 +1,25 @@
+-----------------Summary-------------------
+- DB,Collections,Docs
+- A database holds multiple collections where each collection can then hold multiple documents
+- Databases and collections are "lazily" (i..e when a document is inserted)
+- A document can't directly be inserted into a DAtabase , you need to use a collection.
+
+
+--------------------------------------------
+- Document Strucuture
+- Each document need unique ID( we can create otherwise default)
+- you may have embedded documents and aray fields
+
+--------------------------------------------
+- CRUD Operations
+- MongoDB offers multiple CRUD oprations for single-documents and bulk actions(eg insertOne() etc..
+- Some methods require an arguments eg.insertOne , other don't eg. Find()
+- Find returns a cursor, Not a list of documents
+- We can use filters to find specific docs.
+
+--------------------------------------------
+- Retrive Data:
+- We can use filters and operators (eg : $gt for greater than) to limit the number of docs we retrieve.
+- We can use projection to limit the set of fileds we retrieve.
+
+- #filters allows to limit amount of documents where as projection allows to limit amount of fields per documents!!  

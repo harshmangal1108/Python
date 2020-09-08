@@ -1,0 +1,8 @@
+As for the operations side of things, there are quite a few tools and features for MongoDB that you just can’t find with any other database system:
+
+    Whether you need a standalone server or complete clusters of independent servers, MongoDB is as scalable as you need it to be
+    MongoDB also provides load balancing support by automatically moving data across the various shards
+    It has automatic failover support - in case your primary server goes down, a new primary will be up and running automatically
+    The MongoDB Management Service or MMS is a very nice web tool that provides you with the ability to track your machines
+    Thanks to the memory mapped files, you’ll save quite a bit of RAM, unlike relational databases
+
